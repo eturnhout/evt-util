@@ -1,0 +1,25 @@
+{
+    "name": "evt-tools/evt-util",
+    "description": "Some (hopefully) handy code to reuse.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eelke van Turnhout",
+            "email": "eelketurnhout3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Evt\\Util\\": "src/"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "EvtTest\\Unit\\": "test/"
+      }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.1"
+    }
+}
