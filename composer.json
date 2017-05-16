@@ -1,7 +1,7 @@
 {
     "name": "evt-tools/evt-util",
     "description": "Some (hopefully) handy code to reuse.",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Eelke van Turnhout",
