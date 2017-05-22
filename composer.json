@@ -1,5 +1,5 @@
 {
-    "name": "evt-tools/evt-util",
+    "name": "evt/util",
     "description": "Some (hopefully) handy code to reuse.",
     "type": "library",
     "authors": [
