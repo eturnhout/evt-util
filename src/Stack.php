@@ -2,10 +2,10 @@
 namespace Evt\Util;
 
 /**
- * <h1>Stack</h1>
- * <p>
- * A base stack for extending.
- * </p>
+ * Stack
+ *
+ * A base stack for extending
+ *
  *
  * @author Eelke van Turnhout <eelketurnhout3@gmail.com>
  * @version 1.0
@@ -16,9 +16,9 @@ abstract class Stack implements \Iterator
     protected $array = array();
 
     /**
-     * Move forward to the next element and also return it.
+     * Move forward to the next element and also return it
      *
-     * @return mixed The next element on the stack.
+     * @return mixed The next element on the stack
      */
     public function next()
     {
@@ -26,9 +26,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Move backward to the previous element and also return it.
+     * Move backward to the previous element and also return it
      *
-     * @return mixed The previous element on the stack.
+     * @return mixed The previous element on the stack
      */
     public function prev()
     {
@@ -36,9 +36,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Get the current element on the stack.
+     * Get the current element on the stack
      *
-     * @return mixed The current element on the stack.
+     * @return mixed The current element on the stack
      */
     public function current()
     {
@@ -46,9 +46,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Get the key of the current element on the stack.
+     * Get the key of the current element on the stack
      *
-     * @return mixed The key of the current element.
+     * @return mixed The key of the current element
      */
     public function key()
     {
@@ -56,10 +56,10 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Check if there is a current element.
-     * Handy to use after calls like rewind(), next() or forward().
+     * Check if there is a current element
+     * Handy to use after calls like rewind(), next() or forward()
      *
-     * @return boolean True if valid, false otherwise.
+     * @return boolean True if valid, false otherwise
      */
     public function valid()
     {
@@ -67,9 +67,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Reset the stack cursor to the first element on the stack pointer and also returns it.
+     * Reset the stack cursor to the first element on the stack pointer and also returns it
      *
-     * @return mixed The first element on the stack or FALSE if it doesn't exist.
+     * @return mixed The first element on the stack or FALSE if it doesn't exist
      */
     public function rewind()
     {
@@ -77,7 +77,7 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Reset the stack cursor to the end of the stack and also returns it.
+     * Reset the stack cursor to the end of the stack and also returns it
      *
      * @return mixed
      */
@@ -87,9 +87,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Get the size of the stack.
+     * Get the size of the stack
      *
-     * @return integer The size of this stack.
+     * @return integer The size of this stack
      */
     public function sizeOf()
     {
@@ -97,9 +97,9 @@ abstract class Stack implements \Iterator
     }
 
     /**
-     * Get array of this stack.
+     * Get array of this stack
      *
-     * @return array The array containing the elements of the stack.
+     * @return array The array containing the elements of the stack
      */
     public function toArray()
     {
