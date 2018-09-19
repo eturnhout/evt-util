@@ -1,6 +1,8 @@
 <?php
 namespace Evt\Util;
 
+use Evt\Util\Client\AbstractConfig;
+
 /**
  * AbstractClient
  *
@@ -17,7 +19,7 @@ abstract class AbstractClient
      *
      * @param Evt\Util\Client\AbstractConfig $config The configurations with credentials
      */
-    public function setConfig(Config $config)
+    public function setConfig(AbstractConfig $config)
     {
         $this->config = $config;
     }
